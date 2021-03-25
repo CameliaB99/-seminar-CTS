@@ -1,5 +1,6 @@
 package ro.ase.cts.clase.main;
 
+import ro.ase.cts.clase.Banca;
 import ro.ase.cts.clase.DepartamentFinanciar;
 import ro.ase.cts.clase.DepartamentFinanciarEager;
 
@@ -21,6 +22,15 @@ public class  Main {
 	 
 	System.out.println(primuldepartamentFinanciar.toString());
 	System.out.println(alDoileadepartamentFinanciar.toString());
+	
+	Banca primaBanca= Banca.getInstance(30,"Focsani", 2500);
+	Banca aDouaBanca= Banca.getInstance(50,"Bucuresti", 3000);
+	
+	System.out.println(primaBanca.toString());
+	System.out.println(aDouaBanca.toString());
+	
+	
+	
 	
 	}
 }
