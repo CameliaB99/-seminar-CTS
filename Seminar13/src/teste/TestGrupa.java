@@ -61,7 +61,8 @@ public class TestGrupa {
 	@Test(timeout=500)
 	public void testGetPromovabilitatePerformance()
 	{
-		grupa.getPromovabilitate();	}
+		grupa.getPromovabilitate();	
+	}
 	
 	//Principiul right-BICEP
 	@Test
